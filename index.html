@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strength Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <span class="navbar-brand">Strength Journey</span>
+            <div>
+                <a class="text-white me-3" href="index.html">Home</a>
+                <a class="text-white me-3" href="scratch.html">Fitness</a>
+                <a class="text-white me-3" href="webapp.html">Calculator</a>
+                <a class="text-white" href="resume.html">Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center mt-5">
+        <h1>My Strength Journey</h1>
+        <p>This website tracks my fitness progress and strength levels.</p>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3>Fitness Page</h3>
+                    <p>My lifts, goals, and training info.</p>
+                    <a href="scratch.html" class="btn btn-primary">View Page</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3>Strength Calculator</h3>
+                    <p>See your strength tier.</p>
+                    <a href="webapp.html" class="btn btn-success">Open App</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3>Resume</h3>
+                    <p>View my resume.</p>
+                    <a href="resume.html" class="btn btn-secondary" target="_blank">Open</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <h2>Training Video</h2>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/ptpmRrzRtWQ?si=pQJUAvaOhLHQUk7z"
+            title="YouTube video player"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="text-center mt-5">
+        <h2>Bench Progress</h2>
+
+        <div class='tableauPlaceholder' id='viz1776052822060' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Personal Bench Progress'
+                        src='https://public.tableau.com/static/images/Bo/Book1_17760526945270/Sheet5/1_rss.png'
+                        style='border: none' />
+                </a>
+            </noscript>
+
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='Book1_17760526945270/Sheet5' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/Bo/Book1_17760526945270/Sheet5/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1776052822060');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+</body>
+</html>

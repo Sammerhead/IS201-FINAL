@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strength Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Strength Tier Calculator</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="scratch.html">Fitness Page</a> |
+        <a href="webapp.html">Strength Calculator</a>
+    </nav>
+
+    <p>Enter your bodyweight, choose a lift, and enter the weight you lifted.</p>
+
+    <label for="bodyweight">Bodyweight (lbs):</label>
+    <input type="number" id="bodyweight"><br><br>
+
+    <label for="liftType">Choose a lift:</label>
+    <select id="liftType">
+        <option value="bench">Bench Press</option>
+        <option value="squat">Squat</option>
+        <option value="deadlift">Deadlift</option>
+    </select><br><br>
+
+    <label for="liftWeight">Lift Weight (lbs):</label>
+    <input type="number" id="liftWeight"><br><br>
+
+    <button onclick="calculateStrength()">Calculate</button>
+
+    <h2 id="result"></h2>
+
+    <script src="app.js"></script>
+</body>
+</html>

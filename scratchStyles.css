@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    font-family: Verdana, sans-serif;
+    color: #111;
+    text-align: center;
+}
+
+nav {
+    margin: 20px;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: darkred;
+}
+
+h1 {
+    color: darkblue;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
