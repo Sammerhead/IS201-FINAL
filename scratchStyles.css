@@ -1,10 +1,11 @@
 body {
-    background-color: white;
+    background-color: #f5f5f5;
     font-family: Verdana, sans-serif;
     color: #111;
     text-align: center;
 }
 
+/* NAVIGATION */
 nav {
     margin: 20px;
 }
@@ -15,11 +16,41 @@ a {
     color: darkred;
 }
 
+/* HEADINGS */
 h1 {
     color: darkblue;
 }
 
+h2 {
+    color: #333;
+}
+
+/* LISTS */
 ul, ol {
     display: inline-block;
     text-align: left;
+}
+
+/* DIV STYLING (IMPORTANT FOR POINTS) */
+.header {
+    background-color: #e3e3e3;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.stats-section {
+    background-color: #d9edf7;
+    padding: 20px;
+    margin: 20px;
+}
+
+.tableau-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
 }
