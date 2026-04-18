@@ -2,48 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Page</title>
     <link rel="stylesheet" href="scratchstyles.css">
 </head>
 <body>
 
-    <h1>My Fitness Journey</h1>
+    <div class="header">
+        <h1 id="top">My Fitness Journey</h1>
 
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="scratch.html">Fitness Page</a> |
-        <a href="webapp.html">Strength Calculator</a>
-    </nav>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="scratch.html">Fitness Page</a> |
+            <a href="webapp.html">Strength Calculator</a> |
+            <a href="resume.html">Resume</a>
+        </nav>
 
-    <h2>About Me</h2>
-    <p>I am interested in strength training, bench press progress, and improving my relative strength.</p>
+        <p><a href="#stats">Jump to Strength Stats</a></p>
+    </div>
 
-    <h2>Overview</h2>
-<ul>
-    <li> Current Bodyweight: 140 lbs</li>
-    <li>Main Focus: Strength and muscle gain</li>
-</ul>
+    <div class="main-content">
+        <h2>About Me</h2>
+        <p>
+            I am interested in strength training, bench press progress, and improving my relative strength.
+            My main goal right now is to increase my bench press while staying strong for my bodyweight.
+        </p>
 
-    <h2>Favorite Lifts to Increase Bench </h2>
-    <ol>
-        <li>Bench Press</li>
-        <li>Weighted Dips</li>
-        <li>Incline Dumbell</li>
-        <li> Close grip Smith Bench</li>
-    </ol>
-    <h2>Strength Stats</h2>
-<ul>
-    <li>Bodyweight: 140 lbs</li>
-    <p><strong>Bench Press:</strong> 275 lbs</p>
-<p><strong>Goal:</strong> 315 lbs</p>
-</ul>
+        <h2>Overview</h2>
+        <ul>
+            <li>Current Bodyweight: 140 lbs</li>
+            <li>Main Focus: Strength and muscle gain</li>
+            <li>Current Goal: Reach a 315 lb bench press</li>
+        </ul>
 
-<h2>Training Focus</h2>
-<p>
-I focus on increasing relative strength, especially in the bench press. 
-At 140 lbs bodyweight, I have reached a 275 lb bench press and am currently working toward a 315 lb goal. 
-My training emphasizes progressive overload, consistency, and tracking performance over time.
-</p>
+        <h2>Favorite Lifts to Increase Bench</h2>
+        <ol>
+            <li>Bench Press</li>
+            <li>Weighted Dips</li>
+            <li>Incline Dumbbell Press</li>
+            <li>Close Grip Smith Bench</li>
+            <li>Accessory Work
+                <ul>
+                    <li>Tricep Pushdowns</li>
+                    <li>Paused Bench</li>
+                    <li>Chest Fly Variations</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>Fitness Image</h2>
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80" alt="Fitness training image" width="500">
+
+        <h2>Favorite Training Video</h2>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/ptpmRrzRtWQ?si=pQJUAvaOhLHQUk7z"
+            title="YouTube video player"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="stats-section">
+        <h2 id="stats">Strength Stats</h2>
+        <ul>
+            <li>Bodyweight: 140 lbs</li>
+            <li>Bench Press: 275 lbs</li>
+            <li>Goal: 315 lbs</li>
+        </ul>
+
+        <h2>Training Focus</h2>
+        <p>
+            I focus on increasing relative strength, especially in the bench press.
+            At 140 lbs bodyweight, I have reached a 275 lb bench press and am currently working toward a 315 lb goal.
+            My training emphasizes progressive overload, consistency, and tracking performance over time.
+        </p>
+
+        <p>
+            You can also use my
+            <a href="webapp.html">Strength Calculator</a>
+            to compare lifts to bodyweight and see your strength tier.
+        </p>
+    </div>
+
+    <div class="tableau-section">
+        <h2>Bench Progress Tableau Graph</h2>
+        <iframe
+            src="https://public.tableau.com/views/Book1_17760526945270/Sheet5?:showVizHome=no"
+            width="900"
+            height="700"
+            frameborder="0">
+        </iframe>
+
+        <p><a href="#top">Back to Top</a></p>
+    </div>
 
 </body>
 </html>
